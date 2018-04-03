@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "jsx": "react",
+    "lib": ["dom", "es2016", "esnext.asynciterable", "es2017"],
+    "types": [
+      "node",
+      "jest",
+      "react-router"
+    ]
+  },
+  "include": [
+
+  ],
+  "files": [
+
+  ]
+}

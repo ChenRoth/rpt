@@ -1,0 +1,28 @@
+{
+  "name": "parcel-typescript-boilerplate",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "watch": "parcel watch src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.2",
+    "@types/react-dom": "^16.0.4",
+    "@wix/tslint-config-wixstores": "^1.0.3",
+    "parcel-bundler": "^1.7.0",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.8.1"
+  }
+}
